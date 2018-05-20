@@ -1,4 +1,4 @@
-import { axiosNetworkErrorDetectionStrategy } from './lib/ErrorDetectionStrategy/AxiosNetworkErrorDetectionStrategy';
+import { axiosNetworkErrorDetectionStrategy } from './ErrorDetectionStrategy/AxiosNetworkErrorDetectionStrategy';
 
-export * from './lib/axios-retry-policy';
+export * from './AxiosRetryPolicy/axios-retry-policy';
 export { axiosNetworkErrorDetectionStrategy };
