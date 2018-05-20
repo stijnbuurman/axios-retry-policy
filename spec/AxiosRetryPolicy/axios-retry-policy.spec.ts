@@ -8,7 +8,7 @@ import MockAdapter from 'axios-mock-adapter';
 import * as chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import 'mocha';
-import { axiosRetryPolicy } from '../src';
+import { axiosRetryPolicy } from '../../src';
 
 chai.use(chaiAsPromised);
 const assert = chai.assert;
